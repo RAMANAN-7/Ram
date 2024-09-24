@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin-left: 0%;
+}
+
+.dabba{
+    background-color: #5c5757;
+    padding: 0%;
+    margin: 0%;
+}
+
+.titlebox{
+
+    padding: 10px;
+    
+    display: inline-block;
+}
+
+.notebox{
+    background-color: #62929a; 
+    color: white;
+    padding: 10px;
+    width: 20%;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: large;
+    left: 50%;
+    display: inline-block;
+    vertical-align: top;
+}   
+
+h2{
+    color:  #bad8b6; 
+}
+
+.addpopbtn{
+    background-color: rgb(23, 140, 140);
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(0, 0, 0);
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    border: none;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+.popupoverlay1{
+
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    opacity: 0.8;
+    left: 0%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+
+}
+
+.pop{
+
+    background: #62929a;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    color: black;
+    display: none;
+}
+
+#headinginput{
+
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: black solid;
+    
+    
+}
+#subtitle1{
+
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black;
+    
+    
+}
+
+#headinginput::placeholder{
+    color: black;
+}
+
+
+#subtitle1::placeholder{
+    color: black;
+}
+
+textarea{
+
+    width: 300px;
+    margin-left: 8px;
+    height: 50px;
+    background: transparent;
+    border: #000000 solid;
+
+    
+    
+}
+
+textarea::placeholder{
+
+    color: #000000;
+}
+#addbtn{
+    background-color: #000000;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 20px;
+    color: aliceblue;
+    margin-left: 10px;
+}
+#cancelbtn{
+    background-color: #000000;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 20px;
+    color: aliceblue;
+}
+
+#headinginput:focus{
+
+    outline: none;
+}
+
+#subtitle1:focus{
+
+    outline: none;
+}
+
+textarea:focus{
+
+    outline: none;
+}
+
+#line{
+
+    border-bottom: #000000 solid;
+}
+
+
